@@ -10,7 +10,7 @@ const Work = () => (
             <title>Work</title>
         </Helmet>
         <div class="columns is-centered"> 
-        Work goes in here
+            Work (TA, Barclays, PennEngOnlineDev) goes in here
         </div>
     </div>
         

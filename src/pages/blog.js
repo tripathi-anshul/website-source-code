@@ -10,9 +10,8 @@ const Work = () => (
             <title>Blog</title>
         </Helmet>
         <div class="columns is-centered"> 
-            Insert pseudo-intellectual regurgitations
+            Integrate mdx files to publish pseudo-intellectual regurgitations
         </div>
     </div>
-        
 )
 export default Work
