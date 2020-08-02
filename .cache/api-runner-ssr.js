@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/anshultripathi/Desktop/Git Material/gatsby-site/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1035,"sizeByPixelDensity":true}}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

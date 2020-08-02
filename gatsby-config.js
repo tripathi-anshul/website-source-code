@@ -10,11 +10,27 @@ module.exports = {
     description: `Personal Webpage.`,
     author: `Anshul Tripathi`,
   	subtitle: 'Hi, I\'m Anshul Tripathi 👋',
-  	copyright: '© All rights reserved.'
+    copyright: '© All rights reserved.',
+    icon:'/media/phi.svg'
   },
   plugins: [
     'gatsby-plugin-sass',
-    `gatsby-plugin-mdx`,
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1035,
+              sizeByPixelDensity: true,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -24,7 +40,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon:'src/media/phi.svg'
+        icon:'/static/media/phi.svg'
       },
       resolve: `gatsby-source-filesystem`,
       options: {
