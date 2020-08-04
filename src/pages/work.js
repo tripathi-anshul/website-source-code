@@ -18,7 +18,7 @@ const Work = () => (
                 <div class="media">
                 <div class="media-left">
                     <figure class="image is-96x96">
-                    <img src="/media/barclays.png" alt="Placeholder image"/>
+                    <img src="https://cdn.theorg.com/0ce3ba7b-ec9e-4501-babc-8070dc63b390_medium.jpg" alt="Placeholder image"/>
                     </figure>
                 </div>
                 <div class="media-content">
