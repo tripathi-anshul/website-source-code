@@ -11,7 +11,7 @@ module.exports = {
     author: `Anshul Tripathi`,
   	subtitle: 'Hi, I\'m Anshul Tripathi 👋',
     copyright: '© All rights reserved.',
-    icon:'/media/phi.svg'
+    icon:'src/phi.svg'
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -40,7 +40,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon:'/static/media/phi.svg'
+        icon:'/media/phi.svg'
       },
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -10,7 +10,7 @@ const Work = () => (
             <title>Blog</title>
         </Helmet>
         <div class="columns is-centered"> 
-            Integrate mdx files to publish pseudo-intellectual regurgitations
+            Coming Soon
         </div>
     </div>
 )

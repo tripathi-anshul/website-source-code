@@ -17,12 +17,10 @@ const Senioryear = () => (
         
         <br></br>
 
-        <p>I've always regretted not having enough memorabilia from previous chapters of life.</p>
-
-        <br></br>
-
-        <p>Since I'm fortunate enough to be in Philly, I'll be actively documenting pictures 
-        some of the places/people with whom with whom I share fond memories. </p>
+        <p>I've always regretted not having enough memorabilia from previous chapters of life.
+        Since I'm fortunate enough to be in Philly, I'll be actively documenting pictures 
+        some of the places/people with whom with whom I share fond memories.
+        </p>
 
         <br></br>
 
@@ -30,7 +28,6 @@ const Senioryear = () => (
 
         <br></br>
 
-        "10/10 Effort" - Future Anshul
         </div>
         <div class="column"></div>    
         </div>
